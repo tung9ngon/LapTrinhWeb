@@ -1,0 +1,16 @@
+<HEAD>
+    <TITLE>Thay đổi nội dung của nhiều phần tử</TITLE>
+    </HEAD>
+    <p>Đoạn văn 1</p>
+    <p>Đoạn văn 2</p>
+    <p>Đoạn văn 3</p>
+
+    <script>
+        // Lấy tất cả các phần tử <p> trên trang
+        var cacdoanvan = document.getElementsByTagName("p");
+
+        // Duyệt qua từng phần tử <p> và thay đổi nội dung của chúng
+        for (var i = 0; i < cacdoanvan.length; i++) {
+            cacdoanvan[i].innerHTML = "Updated paragraph";
+        }
+    </script>

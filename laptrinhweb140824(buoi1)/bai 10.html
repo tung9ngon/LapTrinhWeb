@@ -1,0 +1,18 @@
+<HEAD>
+    <TITLE>Thay đổi nội dung bằng cách thao tác với Class</TITLE>
+    </HEAD>
+        <!-- Các phần tử có class "item" -->
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    
+<script>
+    // Lấy tất cả các phần tử có class "item"
+    var items = document.getElementsByClassName("item");
+
+    // Lặp qua tất cả các phần tử và thay đổi nội dung của chúng
+    for (var i = 0; i < items.length; i++) {
+    items[i].textContent = "Updated item";
+}</script>
+   

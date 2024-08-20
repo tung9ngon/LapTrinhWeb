@@ -1,0 +1,17 @@
+<HEAD>
+    <TITLE>Đếm số lượng phần tử trong DOM</TITLE>
+    </HEAD>
+    <div>Div 1</div>
+    <div>Div 2</div>
+    <p id="result"></p>
+    <script>
+        // Đếm số lượng phần tử <div> trên trang
+        var divCount = document.getElementsByTagName("div").length;
+
+        // Hiển thị kết quả
+        console.log("Số lượng phần tử <div> trên trang là: " + divCount);
+
+        // Hoặc hiển thị kết quả trên trang
+        document.body.innerHTML += "<p>Số lượng phần tử &lt;div&gt; trên trang là: " + divCount + "</p>";
+
+    </script>

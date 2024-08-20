@@ -1,0 +1,17 @@
+<HEAD>
+    <TITLE>Xử lý sự kiện click</TITLE>
+    </HEAD>
+
+    <!-- Nút bấm với id là "btn" -->
+    <button id="btn">Nhấp vào tôi</button>
+
+    <script>
+        // Lấy phần tử nút có id là "btn"
+        var button = document.getElementById("btn");
+
+        // Gán sự kiện click cho nút
+        button.addEventListener("click", function() {
+            // Hiển thị thông báo khi nút được nhấp
+            alert("Bạn đã nhấp vào nút!");
+        });
+    </script>

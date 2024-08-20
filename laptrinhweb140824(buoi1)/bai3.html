@@ -1,0 +1,21 @@
+<HEAD>
+    <TITLE>Thêm phần tử mới vào DOM</TITLE>
+    </HEAD>
+    <ul id="list">
+        <li>Phần tử 1</li>
+        <li>Phần tử 2</li>
+        <li>Phần tử 3</li>
+    </ul>
+    <script>
+        // Tạo phần tử <li> mới
+        var newItem = document.createElement("li");
+
+        // Thêm nội dung cho phần tử <li> mới
+        newItem.innerHTML = "Phần tử mới";
+
+        // Lấy danh sách <ul> có id là "list"
+        var list = document.getElementById("list");
+
+        // Thêm phần tử <li> mới vào danh sách <ul>
+        list.append(newItem);
+    </script>
