@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Bảng với JavaScript</title>
+</head>
+<body>
+    <div id="table-container"></div>
+
+    <script>
+        // Tạo một phần tử bảng
+        const table = document.createElement("table");
+
+        // Lặp qua 3 hàng
+        for (let i = 0; i < 3; i++) {
+            const row = document.createElement("tr"); // Tạo một hàng
+
+            // Lặp qua 3 cột
+            for (let j = 0; j < 3; j++) {
+                const cell = document.createElement("td"); // Tạo một ô
+                cell.textContent = `Hàng ${i + 1}, Cột ${j + 1}`; // Thêm nội dung vào ô
+                row.appendChild(cell); // Thêm ô vào hàng
+            }
+
+            table.appendChild(row); // Thêm hàng vào bảng
+        }
+
+        // Thêm bảng vào phần tử có id là "table-container"
+        const tableContainer = document.getElementById("table-container");
+        tableContainer.appendChild(table);
+    </script>
+</body>
+</html>
