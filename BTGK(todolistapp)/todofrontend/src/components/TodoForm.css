@@ -1,0 +1,16 @@
+.TodoForm {
+    margin: 20px 0;
+  }
+  
+  .TodoForm input {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .TodoForm button {
+    background-color: #28a745;
+  }
+  
+  .TodoForm button:hover {
+    background-color: #218838;
+  }

@@ -1,0 +1,22 @@
+.TodoItem {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .TodoItem h3 {
+    margin: 0;
+  }
+  
+  .TodoItem p {
+    margin: 5px 0;
+  }
+  
+  .TodoItem button {
+    background-color: #dc3545;
+  }
+  
+  .TodoItem button:hover {
+    background-color: #c82333;
+  }
