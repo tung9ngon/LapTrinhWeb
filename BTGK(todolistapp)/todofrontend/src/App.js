@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
-
+import './App.css';
 function App() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState({ title: '', description: '', due_date: '' });

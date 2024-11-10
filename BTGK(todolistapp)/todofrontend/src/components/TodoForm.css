@@ -1,16 +1,24 @@
-.TodoForm {
-    margin: 20px 0;
-  }
-  
-  .TodoForm input {
-    display: block;
-    margin: 10px auto;
-  }
-  
-  .TodoForm button {
-    background-color: #28a745;
-  }
-  
-  .TodoForm button:hover {
-    background-color: #218838;
-  }
+input[type="text"],
+input[type="date"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #17a2b8; /* Màu xanh dương nhạt cho nút thêm */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #138496;
+}

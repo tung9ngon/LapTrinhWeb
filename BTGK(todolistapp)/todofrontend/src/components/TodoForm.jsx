@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './TodoForm.css';
 const TodoForm = ({ newTodo, setNewTodo, addTodo }) => {
   const handleInputChange = (e) => {
     setNewTodo({ ...newTodo, [e.target.name]: e.target.value });

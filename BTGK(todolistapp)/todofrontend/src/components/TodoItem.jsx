@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './TodoItem.css';
 const TodoItem = ({ todo, deleteTodo, updateTodo, editingTodo, setEditingTodo, handleEdit }) => {
   const [updatedTodo, setUpdatedTodo] = useState(todo);
 
